@@ -1,3 +1,16 @@
+a.logo {
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+h2,
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+}
+
+
 /* CAROUSEL */
 
 .carousel-caption {
@@ -29,10 +42,20 @@
     left: 0;
 }
 
-/* About Section */
-#about {
-    height: 600px;
+#carousel h2 {
+    color: rgb(255, 255, 255);
 }
+
+/* /carousel */
+
+
+/* About Section */
+
+/* #about {
+    margin: 0 auto;
+    height: 600px;
+    width: 90%;
+} 
 
 #left {
     padding-top: 30px;
@@ -50,6 +73,7 @@
     width: 33%;
     margin: 0 auto;
 }
+*/
 
 hr {
     border-top: 1px solid rgb(33, 37, 41);
@@ -57,6 +81,10 @@ hr {
     margin: 5px 0;
 }
 
+
+
+
+/*
 .left-heading,
 .right-heading {
     width: 50%;
@@ -64,6 +92,7 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+*/
 
 .left-heading {
     float: right;
@@ -73,7 +102,7 @@ hr {
     float: left;
 }
 
-.right-heading h2 {
+.right-heading h3 {
     text-align: right;
 }
 
@@ -81,11 +110,14 @@ hr {
     text-align: right;
 }
 
+
+
 #reasons {
     text-align: center;
     margin: 50px 0;
     font-size: 300%;
 }
+
 
 #circle {
     width: 300px;
@@ -105,3 +137,57 @@ hr {
     border-radius: 50%;
 
 }
+
+.featurette-divider {
+    margin: 5rem auto;
+    width: 80%;
+}
+
+@media screen and (max-width: 991px) {
+    hr {
+        width: 250px;
+        height: 250px;
+        display: none;
+    }
+
+    #about h3 {
+        text-align: center;
+    }
+
+    #circle {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        border: 1px solid #cccccc;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+    .left-heading h3 {
+        text-align: center;
+    }
+
+    .left-heading p {
+        text-align: justify;
+    }
+
+    .right-heading h3 {
+        text-align: center;
+    }
+
+    .right-heading p {
+        text-align: justify;
+    }
+
+    .left-heading h3 {
+        text-align: center;
+    }
+
+    .right-heading {
+        text-align: center;
+    }
+}
+
+/* /about */
