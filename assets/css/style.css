@@ -48,6 +48,41 @@ h3 {
 
 /* /carousel */
 
+/* test */
+
+div.row.membership {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.member-circle {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-bg-left {
+    height: 100%;
+    right: 80px;
+    background: url(../images/gym4.jpg) 0% 0% / cover;
+    border-radius: 50%;
+}
+
+#circle-bg-center {
+    height: 100%;
+    right: 80px;
+    background: url(../images/gym4.jpg) 0% 0% / cover;
+    border-radius: 50%;
+}
+
+#circle-bg-right {
+    height: 100%;
+    right: 80px;
+    background: url(../images/gym4.jpg) 0% 0% / cover;
+    border-radius: 50%;
+}
 
 /* About Section */
 
@@ -75,7 +110,7 @@ h3 {
 }
 */
 
-hr {
+hr.about {
     border-top: 1px solid rgb(33, 37, 41);
     width: 100%;
     margin: 5px 0;
@@ -126,7 +161,6 @@ hr {
     border: 1px solid #cccccc;
     border-radius: 50%;
     margin: 0 auto;
-
 }
 
 #circle-bg {
@@ -144,7 +178,7 @@ hr {
 }
 
 @media screen and (max-width: 991px) {
-    hr {
+    hr.about {
         width: 250px;
         height: 250px;
         display: none;
@@ -164,30 +198,29 @@ hr {
         margin-bottom: 30px;
     }
 
-
     .left-heading h3 {
-        text-align: center;
-    }
-
-    .left-heading p {
-        text-align: justify;
+        text-align: left;
     }
 
     .right-heading h3 {
-        text-align: center;
+        text-align: right;
     }
 
     .right-heading p {
-        text-align: justify;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #circle {
+        display: none;
     }
 
-    .left-heading h3 {
+    left-heading h3,
+    right-heading h3 {
         text-align: center;
     }
 
-    .right-heading {
-        text-align: center;
-    }
 }
 
 /* /about */
