@@ -92,6 +92,11 @@ div.row.membership {
 
 /* About Section */
 
+section {
+    margin: 0 2em;
+}
+
+
 #about h2 {
     text-align: center;
 
@@ -188,57 +193,30 @@ hr.about {
 
 }
 
-/* FEATURES */
+/* CLASSES */
+
+.classes-background {
+    background: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.featurette-divider {
+    margin: 2rem auto 2rem auto;
+    width: 80%;
+}
 
 hr.featurette-divider.inner {
     color: transparent;
+    margin: 3rem auto 2rem auto;
 }
 
 
-
-/* #about {
-    margin: 0 auto;
-    height: 600px;
-    width: 90%;
-} 
-
-#left {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-#center {
-    width: 33%;
-    margin: 0 auto;
-}
-
-.left-heading,
-.right-heading {
-    width: 50%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-} */
-
-/* /about */
-
-
-/* Classes */
 
 /* FOOTER */
 
 footer {
-    background-color: #212529;
+    background-color: rgba(33, 33, 41);
     padding: 1em;
-    text-align: center;
-    width: 100%;
     bottom: 0;
     right: 0;
 }
@@ -254,6 +232,7 @@ footer>a {
     font-size: 0.8rem;
 }
 
-footer>p {
+footer p,
+footer h5 {
     color: white;
 }
