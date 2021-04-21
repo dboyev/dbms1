@@ -1,6 +1,6 @@
 a.logo {
     text-transform: uppercase;
-    font-size: 150%;
+    font-size: 160%;
 }
 
 h2,
@@ -211,28 +211,44 @@ hr.featurette-divider.inner {
 }
 
 
+/*CONTACT*/
+
+#contact {
+    text-align: center;
+}
+
+
 
 /* FOOTER */
 
 footer {
-    background-color: rgba(33, 33, 41);
+    background-color: #343a40 !important;
     padding: 1em;
     bottom: 0;
     right: 0;
+    text-align: center;
 }
 
-footer>span {
+footer span {
     color: white;
+    text-align: center;
 }
 
-footer>a {
+footer a {
     color: white;
     text-decoration: none;
     padding: 0 15px;
     font-size: 0.8rem;
 }
 
-footer p,
+footer p {
+    color: white;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+
 footer h5 {
     color: white;
+
 }
