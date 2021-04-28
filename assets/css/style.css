@@ -12,13 +12,31 @@ h3 {
 
 h2.section_heading {
     text-align: center;
-    margin-bottom: 90px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
+
+article {
+    margin: 0 2em;
+}
+
+/*------------------------------------------------NAV-------------------------------------------------------*/
+
+.bg-dark {
+    background-color: rgba(52, 58, 64, 0.7) !important;
+}
+
+
+/*------------------------------------------------/END NAV--------------------------------------------------*/
 
 /* CAROUSEL */
 
 .carousel-caption {
     bottom: 25%;
+}
+
+.carousel-caption h2 {
+    color: rgb(255, 255, 255);
 }
 
 .btn {
@@ -70,14 +88,14 @@ div.row.membership {
 #circle-bg-left {
     height: 100%;
     right: 80px;
-    background: url(../images/gym4.jpg) 0% 0% / cover;
+    background: url(../images/equipment.jpg) 0% 0% / cover;
     border-radius: 50%;
 }
 
 #circle-bg-center {
     height: 100%;
     right: 80px;
-    background: url(../images/gym4.jpg) 0% 0% / cover;
+    background: url(../images/gym_coach.jpg) 0% 0% / cover;
     border-radius: 50%;
 }
 
@@ -92,9 +110,9 @@ div.row.membership {
 
 /* About Section */
 
-section {
+/*section {
     margin: 0 2em;
-}
+}*/
 
 
 #about h2 {
@@ -134,7 +152,7 @@ hr.about {
 }
 
 #circle-bg {
-    background: url("../images/gym4.jpg");
+    background: url("../images/coach.jpg");
     background-size: cover;
     height: 100%;
     right: 80px;
@@ -222,7 +240,7 @@ hr.featurette-divider.inner {
 /* FOOTER */
 
 footer {
-    background-color: #343a40 !important;
+    background-color: rgba(52, 58, 64, 0.7) !important;
     padding: 1em;
     bottom: 0;
     right: 0;
