@@ -1,23 +1,43 @@
-a.logo {
+#logo {
     text-transform: uppercase;
     font-size: 160%;
 }
 
-h2,
-h3 {
+h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555555;
 }
 
+h3 {
+    letter-spacing: 4px;
+    color: #555555;
+}
+
+
 h2.section_heading {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 60px;
+    font-weight: bolder;
 }
 
 article {
     margin: 0 2em;
+}
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+hr.featurette-divider {
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-bottom: 0rem;
+    margin-right: auto;
+    width: 100%;
 }
 
 /*------------------------------------------------NAV-------------------------------------------------------*/
@@ -29,10 +49,10 @@ article {
 
 /*------------------------------------------------/END NAV--------------------------------------------------*/
 
-/* CAROUSEL */
+/*------------------------------------------------CAROUSEL--------------------------------------------------*/
 
 .carousel-caption {
-    bottom: 25%;
+    bottom: 5rem;
 }
 
 .carousel-caption h2 {
@@ -46,7 +66,9 @@ article {
 
 .carousel-item {
     height: 100%;
-    min-height: 300px;
+    min-height: 210px;
+    width: 100%;
+    min-width: 320px;
     background: no-repeat scroll center scroll;
     background-size: cover;
     -webkit-background-size: cover;
@@ -68,83 +90,27 @@ article {
     color: rgb(255, 255, 255);
 }
 
-/* /carousel */
+/*-------------------------------------------------/END CAROUSEL--------------------------------------------*/
 
-/* Membership */
-
-div.row.membership {
-    text-align: center;
-    margin-top: 5%;
-}
-
-.member-circle {
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-bg-left {
-    height: 100%;
-    right: 80px;
-    background: url(../images/equipment.jpg) 0% 0% / cover;
-    border-radius: 50%;
-}
-
-#circle-bg-center {
-    height: 100%;
-    right: 80px;
-    background: url(../images/gym_coach.jpg) 0% 0% / cover;
-    border-radius: 50%;
-}
-
-#circle-bg-right {
-    height: 100%;
-    right: 80px;
-    background: url(../images/gym4.jpg) 0% 0% / cover;
-    border-radius: 50%;
-}
-
-/* /membership */
-
-/* About Section */
-
-/*section {
-    margin: 0 2em;
-}*/
-
+/*-------------------------------------------------ABOUT----------------------------------------------------*/
 
 #about h2 {
     text-align: center;
-
-}
-
-hr.about {
-    border-top: 1px solid rgb(33, 37, 41);
-    width: 100%;
-    margin: 5px 0;
 }
 
 .left-heading {
-    float: right;
+    float: left;
+    text-align: left
 }
 
 .right-heading {
-    float: left;
-}
-
-.right-heading h3 {
-    text-align: right;
-}
-
-.right-heading p {
-    text-align: right;
+    float: right;
+    text-align: right
 }
 
 #circle {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 50%;
@@ -152,7 +118,7 @@ hr.about {
 }
 
 #circle-bg {
-    background: url("../images/coach.jpg");
+    background: url("../images/gym2.jpg");
     background-size: cover;
     height: 100%;
     right: 80px;
@@ -160,58 +126,41 @@ hr.about {
 
 }
 
-.featurette-divider {
-    margin: 5rem auto;
-    width: 80%;
+.btn-about {
+    margin: 5px auto 0px auto;
 }
 
 @media screen and (max-width: 991px) {
-    hr.about {
-        width: 250px;
-        height: 250px;
-        display: none;
-    }
-
-    #about h3 {
-        text-align: center;
-    }
 
     #circle {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         padding: 10px;
         border: 1px solid #cccccc;
         border-radius: 50%;
         margin: 0 auto;
         margin-bottom: 30px;
     }
-
-    .left-heading h3 {
-        text-align: left;
-    }
-
-    .right-heading h3 {
-        text-align: right;
-    }
-
-    .right-heading p {
-        text-align: left;
-    }
 }
 
 @media screen and (max-width: 767px) {
-    #circle {
-        display: none;
+
+    .left-heading,
+    .right-heading {
+        float: none;
+        text-align: center;
+
     }
 
-    left-heading h3,
-    right-heading h3 {
+    #about p {
+        float: none;
         text-align: center;
     }
-
 }
 
-/* CLASSES */
+/*-------------------------------------------------/END ABOUT-----------------------------------------------*/
+
+/*-------------------------------------------------CLASSES--------------------------------------------------*/
 
 .classes-background {
     background: rgb(255, 255, 255);
@@ -220,27 +169,85 @@ hr.about {
 
 .featurette-divider {
     margin: 2rem auto 2rem auto;
-    width: 80%;
+    width: 100%;
 }
 
 hr.featurette-divider.inner {
-    color: transparent;
-    margin: 3rem auto 2rem auto;
+    visibility: hidden;
 }
 
+/*-------------------------------------------------/END CLASSES---------------------------------------------*/
 
-/*CONTACT*/
+/*-------------------------------------------------MEMBERSHIP-----------------------------------------------*/
 
-#contact {
+div.row.membership {
     text-align: center;
+    margin-top: 0px;
 }
 
+.member-circle {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
 
+#circle-bg-left {
+    height: 100%;
+    right: 80px;
+    background: url(../images/pay&go.jpg) 0% 0% / cover;
+    /*Photo by Luis Felipe Lins on Unsplash*/
+    border-radius: 50%;
+}
+
+#circle-bg-center {
+    height: 100%;
+    right: 80px;
+    background: url(../images/regular.jpg) 0% 0% / cover;
+    /*Photo by Victor Freitas on Unsplash*/
+    border-radius: 50%;
+}
+
+#circle-bg-right {
+    height: 100%;
+    right: 80px;
+    background: url(../images/students.jpg) 0% 0% / cover;
+    /*Photo by Xiaolong Wong on Unsplash*/
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 991px) {
+
+    .member-circle {
+        width: 180px;
+        height: 180px;
+        padding: 8px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+}
+
+/*-------------------------------------------------/END MEMBERSHIP------------------------------------------*/
+
+/*-------------------------------------------------CONTACT--------------------------------------------------*/
+#contact {
+    text-align: left;
+}
+
+@media screen and (max-width: 425px) {
+
+    #contact {
+        font-size: 75%;
+    }
+}
+
+/*-------------------------------------------------/END CONTACT---------------------------------------------*/
 
 /* FOOTER */
 
 footer {
-    background-color: rgba(52, 58, 64, 0.7) !important;
+    background-color: rgba(52, 58, 64, 0.7);
     padding: 1em;
     bottom: 0;
     right: 0;
