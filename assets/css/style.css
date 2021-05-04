@@ -77,9 +77,8 @@ hr.featurette-divider {
     min-height: 210px;
     width: 100%;
     min-width: 320px;
-    background: no-repeat scroll center scroll;
+    background: no-repeat center;
     background-size: cover;
-    -webkit-background-size: cover;
 }
 
 .carousel-item::before {
