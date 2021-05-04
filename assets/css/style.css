@@ -261,10 +261,21 @@ div.row.membership {
 
 footer {
     background-color: rgba(52, 58, 64, 0.7);
-    padding: 1em;
+    padding: 0;
     bottom: 0;
     right: 0;
     text-align: center;
+}
+
+footer p {
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+footer div.col-4 {
+    margin-top: 10px;
 }
 
 footer span {
@@ -277,16 +288,4 @@ footer a {
     text-decoration: none;
     padding: 0 15px;
     font-size: 0.8rem;
-}
-
-footer p {
-    color: white;
-    margin-bottom: 0;
-    margin-top: 1rem;
-}
-
-
-footer h5 {
-    color: white;
-
 }
