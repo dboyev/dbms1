@@ -54,6 +54,12 @@ All images were taken professionally and are of good quality.
 with Sans Serif as the fallback for both. Both Roboto and Lato are simple clean fonts popular in programming, they both suit the site well.
 
 ## **Wireframes**
-- Home Page Wireframe - View
-- Mobile Wireframe - View
-- Contact Us Page Wireframe - View
+- Mobile All - [View](assets/wireframes/mobile_view.png)
+- Tablet Home - [View](assets/wireframes/ipad_home.png)
+- Tablet Membership - [View](assets/wireframes/ipad_membership.png)
+- Tablet Classes - [View](assets/wireframes/ipad_classes.png)
+- Tablet Gallery - [View](assets/wireframes/ipad_gallery.png)
+- Desktop Home - [View](assets/wireframes/desktop_home.png)
+- Desktop Membership - [View](assets/wireframes/desktop_membership.png)
+- Desktop Classes - [View](assets/wireframes/desktop_classes.png)
+- Desktop Gallery - [View](assets/wireframes/desktop_gallery.png)
