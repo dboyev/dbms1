@@ -48,7 +48,7 @@ hr.featurette-divider {
 
 /*------------------------------------------------NAV-------------------------------------------------------*/
 .bg-dark {
-    background-color: rgba(52, 58, 64, 0.7) !important;
+    background-color: rgba(52, 58, 64, 0.85) !important;
 }
 
 #logo {
@@ -258,7 +258,7 @@ iframe {
 
 /*----------------------------------------------------FOOTER------------------------------------------------*/
 footer {
-    background-color: rgba(52, 58, 64, 0.7);
+    background-color: rgba(52, 58, 64, 0.85);
     padding: 0;
     bottom: 0;
     right: 0;
