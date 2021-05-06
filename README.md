@@ -94,3 +94,46 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 to ensure there were no syntax errors in the project.
 - [W3C Markup Validator](https://validator.w3.org/nu/) - [Report](assets/testing/testing_html.pdf)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Report](assets/testing/testing_css.pdf)
+
+## **Testing User Stories from User Experience (UX) Section**
+1. **Existing Member Goals**
+* As an existing member, I would like to be able to see classes timetable so I can schedule my classes: - You can do this by 
+navigating to Classes & Timetable section from the nav menu which is at the top right corner of the screen or simply scrolling 
+the page down to Classes & Timetable section, then clicking on the timetable button.
+
+* As an existing member, I would like to be able to see contact details, should I need to contact the gym: - You can do this by 
+navigating to Contact section, which is at the bottom of the page. You can access it by scrolling down or via nav menu at the 
+top right corner of the screen.
+
+* As an existing member, I would like to be able to see the opening hours to schedule my training: - You can find this information
+in the Contact section, which is accessible from the nav menu at the top right corner of the screen or by scrolling down to the
+bottom of the page.
+
+* As an existing member, I would like to be able to see social media profiles of the gym: - You can do this by navigating to 
+the Footer, which is located at the very bottom of the page, and clicking the icon of a social media platform you are interested 
+in. You can get to the Footer by scrolling down to the very bottom of the page.
+
+2. **Prospective Member Goals** 
+* As a prospective member, I would like to be able to see available mebmership types and chose best one for me: - You can do this 
+by navigating to Membership section from the nav menu at the top right corner of the page or by scrolling the page down to 
+Membership section.
+
+* As a prospective member, I would like to be able to see membership fees and exit procedure: - You can do this 
+by navigating to Membership section from the nav menu at the top right corner of the page or by scrolling the page down to 
+Membership section.
+
+* As a prospective member, I would like to be able to see what classes are running and when: - You can do this 
+by navigating to Classes section from the nav menu at the top right corner of the page or by scrolling the page down to 
+Classes section.
+
+* As a prospective member, I would like to be able to sign up: - You can do this by clicking the Join Now button in the 
+Carousel at the top of the page (or in About section on smaller screens) and filling out the form. You can also do it by 
+clicking one of the Sign Up! buttons in the Membership section of the page.
+
+* As a prospective member, I would like to be able to see social media profiles of the gym: - You can do this by navigating to 
+the Footer, which is located at the very bottom of the page, and clicking the icon of a social media platform you are interested 
+in. You can get to the Footer by scrolling down to the very bottom of the page.
+
+* As a prospective member, I would like to be able to see contact detailsof the gym: - You can do this by navigating to Contact 
+section, which is at the bottom of the page. You can access it by scrolling down or via nav menu at the top right corner of the 
+screen.
