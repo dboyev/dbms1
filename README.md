@@ -76,8 +76,7 @@ well.
 
 ## **Frameworks, Libraries & Programs Used**
 1. [Bootstrap 4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/) 
-- Bootstrap was used throughout the project to assist with the responsiveness and styling of the website. The Carousel, Classes and Membership 
-sections of the website are inspired by the [Carousel Expamle](https://getbootstrap.com/docs/4.6/examples/carousel/) from Bootsrap.
+- Bootstrap was used throughout the project to assist with the responsiveness and styling of the website.
 2. [Google Fonts](https://fonts.google.com/) 
 - Google fonts were used to import the Roboto and Lato fonts into the style.css file. These fonts are used throughout the project.
 3. [Font Awesome](https://fontawesome.com/)
@@ -162,3 +161,41 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, click the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
+
+## **Cloning a repository to GitHub Desktop**
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/dboyev/dbms1)
+2. Above the list of files, click the **Code** button.
+3. Click the **Open with GitHub Desktop** to clone and open the repository with GitHub Desktop.
+4. Follow the prompts in GitHub Desktop to complete the clone.
+- [More information here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop)
+
+## **Cloning a repository using the command line**
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/dboyev/dbms1)
+2. Above the list of files, click the **Code** button.
+3. To clone the repository using HTTPS, copy the url under "Clone with HTTPS". To clone the repository using an SSH key, 
+including a certificate issued by your organization's SSH certificate authority, click SSH, then copy the url. 
+To clone a repository using GitHub CLI, click  **GitHub CLI**, then copy the url.
+4. Open Terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type git clone, and then paste the URL you copied earlier.
+7. Press **Enter** to create your local clone.
+- [More information here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-using-the-command-line)
+
+# Credits
+## **Code**
+
+- [Bootstrap 4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was used throughout the project to assist with the responsiveness and styling of the website. 
+The Carousel, Classes and Membership sections of the website were inspired by the [Carousel Expamle](https://getbootstrap.com/docs/4.6/examples/carousel/) from Bootsrap.
+- A gallery template from [Start Bootstrap](https://startbootstrap.com/snippets/thumbnail-gallery) was used to create the gallery section of the web site.
+
+## **Content**
+- All content was written by the developer.
+
+## **Media**
+- All Images were taken from [Unsplash](https://unsplash.com/). All authors were attributed in the alt text of relevant images.
+
+## **Acknowledgements**
+- My Mentor Antonio for valuable feedback.
+- [Code Institute](https://codeinstitute.net/) for their outstanding learning material.
+- [Stack Overflow](https://stackoverflow.com/) for useful resourses.
+
