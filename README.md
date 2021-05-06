@@ -137,3 +137,28 @@ in. You can get to the Footer by scrolling down to the very bottom of the page.
 * As a prospective member, I would like to be able to see contact detailsof the gym: - You can do this by navigating to Contact 
 section, which is at the bottom of the page. You can access it by scrolling down or via nav menu at the top right corner of the 
 screen.
+
+## **Further Testing**
+* The Website was tested on Google Chrome and Safari browsers.
+* The website was viewed on a variety of devices such as Desktop, iPhone7 Plus, iPhone X & iPhone 11 Pro Plus.
+* Friends and family were asked to check out the web site to point out anything they might not like.
+
+## **Known Bugs**
+* None
+
+# Deployment
+## **GitHub Pages**
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/dboyev/dbms1).
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Click on the Check it out here! link.
+5. Under "Source", click the dropdown called "None" and select "Master Branch".
+6. Click Save.
+7. The link for your published website will appear at the top of the page in a green background.
+
+## **Forking the GitHub Repository**
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, click the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
