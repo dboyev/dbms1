@@ -92,9 +92,10 @@ well.
 
 # Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project 
-to ensure there were no syntax errors in the project.
-- [W3C Markup Validator](https://validator.w3.org/nu/) - [Report](assets/testing/testing_html.pdf)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Report](assets/testing/testing_css.pdf)
+to ensure there were no syntax errors in the project. All the found errors, that were not made by third party frameworks, libraries and programms, 
+were rectified. You can find more details on it in the reports below.
+- [W3C Markup Validator](https://validator.w3.org/nu/) - [Report Before](assets/testing/testing_html.pdf) & [Report After](assets/testing/testing_html_after.pdf)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Report](assets/testing/testing_css.pdf) & [Report After](assets/testing/testing_css_after.pdf)
 
 ## **Testing User Stories from User Experience (UX) Section**
 1. **Existing Member Goals**
@@ -140,7 +141,8 @@ section, which is at the bottom of the page. You can access it by scrolling down
 screen.
 
 ## **Further Testing**
-* The Website was tested on Google Chrome and Safari browsers.
+* The website was tested on [web.dev](https://web.dev/). Please see [Lighthouse Report](assets/testing/lighthouse_report.pdf) for details.
+* The website was tested on Google Chrome and Safari browsers.
 * The website was viewed on a variety of devices such as Desktop, iPhone7 Plus, iPhone X & iPhone 11 Pro Plus.
 * Friends and family were asked to check out the web site to point out anything they might not like.
 
