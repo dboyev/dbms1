@@ -51,15 +51,46 @@ All images were taken professionally and are of good quality.
 
 ### Typography
 - The Roboto font is used for all headingd and subheadings and Lato font is used for paragraphs, 
-with Sans Serif as the fallback for both. Both Roboto and Lato are simple clean fonts popular in programming, they both suit the site well.
+with Sans Serif as the fallback for both. Both Roboto and Lato are simple clean fonts popular in programming, they both suit the site 
+well.
 
 ## **Wireframes**
-- Mobile All - [View](assets/wireframes/mobile_view.png)
-- Tablet Home - [View](assets/wireframes/ipad_home.png)
-- Tablet Membership - [View](assets/wireframes/ipad_membership.png)
-- Tablet Classes - [View](assets/wireframes/ipad_classes.png)
-- Tablet Gallery - [View](assets/wireframes/ipad_gallery.png)
-- Desktop Home - [View](assets/wireframes/desktop_home.png)
-- Desktop Membership - [View](assets/wireframes/desktop_membership.png)
-- Desktop Classes - [View](assets/wireframes/desktop_classes.png)
-- Desktop Gallery - [View](assets/wireframes/desktop_gallery.png)
+- [Mobile All](assets/wireframes/mobile_view.png)
+- [Tablet Home](assets/wireframes/ipad_home.png)
+- [Tablet Membership](assets/wireframes/ipad_membership.png)
+- [Tablet Classes](assets/wireframes/ipad_classes.png)
+- [Tablet Gallery](assets/wireframes/ipad_gallery.png)
+- [Desktop Home](assets/wireframes/desktop_home.png)
+- [Desktop Membership](assets/wireframes/desktop_membership.png)
+- [Desktop Classes](assets/wireframes/desktop_classes.png)
+- [Desktop Gallery](assets/wireframes/desktop_gallery.png)
+
+# Features
+- Responsive on all device sizes
+- Interactive elements
+
+# Technologies Used
+## **Languages Used**
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## **Frameworks, Libraries & Programs Used**
+1. [Bootstrap 4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/) 
+- Bootstrap was used throughout the project to assist with the responsiveness and styling of the website. The Carousel, Classes and Membership 
+sections of the website are inspired by the [Carousel Expamle](https://getbootstrap.com/docs/4.6/examples/carousel/) from Bootsrap.
+2. [Google Fonts](https://fonts.google.com/) 
+- Google fonts were used to import the Roboto and Lato fonts into the style.css file. These fonts are used throughout the project.
+3. [Font Awesome](https://fontawesome.com/)
+- Font Awesome was used in About section and Footer of the website to add icons for aesthetic and UX purposes.
+4. [Git](https://git-scm.com/)
+- Git was used for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
+5. [GitHib](https://github.com/)
+- GitHub is used to store the projects code after being pushed from Git.
+6. [Balsamiq](https://balsamiq.com/)
+- Balsamiq was used to create the wireframes during the design process.
+
+# Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project 
+to ensure there were no syntax errors in the project.
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Report]()
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Report]()
