@@ -199,6 +199,7 @@ The Carousel, Classes and Membership sections of the website were inspired by th
 
 ## **Media**
 - All Images were taken from [Unsplash](https://unsplash.com/). All authors were attributed in the alt text of relevant images.
+- The Video in Gallery section was taken from [here](https://www.videvo.net/video/low-level-shot-of-man-skipping/456702/).
 
 ## **Acknowledgements**
 - My Mentor Antonio for valuable feedback.
