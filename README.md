@@ -7,6 +7,8 @@ gym called Inspire Fitness. The purpose of this web site is to attract
 new members and present useful information about the gym to its current 
 and potential members.
 
+![Inspire Fitness Screenshot](assets/images/home_screenshot.jpg)
+
 # UX (User Experience)
 ## **Project Goals**
 The main goal of Inspire Fitness web site is to provide clean and 
