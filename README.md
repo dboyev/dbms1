@@ -193,6 +193,7 @@ To clone a repository using GitHub CLI, click  **GitHub CLI**, then copy the url
 
 - [Bootstrap 4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was used throughout the project to assist with the responsiveness and styling of the website. 
 The Carousel, Classes and Membership sections of the website were inspired by the [Carousel Expamle](https://getbootstrap.com/docs/4.6/examples/carousel/) from Bootsrap.
+- Code from [Code Institute](https://codeinstitute.net/) "Love Running" lesson was used in About section on this web site."
 - A gallery template from [Start Bootstrap](https://startbootstrap.com/snippets/thumbnail-gallery) was used to create the gallery section of the web site.
 
 ## **Content**
