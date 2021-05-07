@@ -145,12 +145,12 @@ screen.
 ## **Further Testing**
 * The website was tested on [web.dev](https://web.dev/). Please see [Lighthouse Report](assets/testing/lighthouse_report.pdf) for details.
 * The website was tested on [UnusedCSS](https://unused-css.com/). Unused css (2 rules) was removed from Classes section and Footer.
-* The website was tested on Google Chrome and Safari browsers.
+* The website was tested on Google Chrome, Safari, Firefox and Edge browsers.
 * The website was viewed on a variety of devices such as Desktop, iPhone7 Plus, iPhone X & iPhone 11 Pro Plus.
 * Friends and family were asked to check out the web site to point out anything they might not like.
 
 ## **Known Bugs**
-* Slides 3 and 4 in the Carousel push the page down by about 1px and then up again on smaller screen sizes over about 1 second.
+* There are no known bugs at the moment.
 
 # Deployment
 ## **GitHub Pages**
