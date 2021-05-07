@@ -148,7 +148,7 @@ screen.
 * Friends and family were asked to check out the web site to point out anything they might not like.
 
 ## **Known Bugs**
-* Slides 3 and 4 in the Carousel push the page down by about 1px on smaller screen sizes.
+* Slides 3 and 4 in the Carousel push the page down by about 1px and then up again on smaller screen sizes over about 1 second.
 
 # Deployment
 ## **GitHub Pages**
