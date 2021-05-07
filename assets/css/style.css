@@ -168,11 +168,6 @@ hr.featurette-divider {
 /*-------------------------------------------------/end about-----------------------------------------------*/
 
 /*-------------------------------------------------CLASSES--------------------------------------------------*/
-.classes-background {
-    background: rgb(255, 255, 255);
-    opacity: 1;
-}
-
 .featurette-divider {
     margin: 2rem auto 2rem auto;
     width: 100%;
@@ -275,11 +270,6 @@ footer p {
 
 footer div.col-4 {
     margin-top: 10px;
-}
-
-footer span {
-    color: white;
-    text-align: center;
 }
 
 footer a {
