@@ -142,6 +142,7 @@ screen.
 
 ## **Further Testing**
 * The website was tested on [web.dev](https://web.dev/). Please see [Lighthouse Report](assets/testing/lighthouse_report.pdf) for details.
+* The website was tested on [UnusedCSS](https://unused-css.com/). Unused css (2 rules) was removed from Classes section and Footer.
 * The website was tested on Google Chrome and Safari browsers.
 * The website was viewed on a variety of devices such as Desktop, iPhone7 Plus, iPhone X & iPhone 11 Pro Plus.
 * Friends and family were asked to check out the web site to point out anything they might not like.
@@ -193,7 +194,8 @@ The Carousel, Classes and Membership sections of the website were inspired by th
 - A gallery template from [Start Bootstrap](https://startbootstrap.com/snippets/thumbnail-gallery) was used to create the gallery section of the web site.
 
 ## **Content**
-- All content was written by the developer.
+- All page content was written by the developer.
+- [README Template](https://github.com/Code-Institute-Solutions/SampleREADME) by [Code Institute](https://codeinstitute.net/) was heavily used to help create this README.
 
 ## **Media**
 - All Images were taken from [Unsplash](https://unsplash.com/). All authors were attributed in the alt text of relevant images.
