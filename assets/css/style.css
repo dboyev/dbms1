@@ -156,12 +156,15 @@ hr.featurette-divider {
     .right-heading {
         float: none;
         text-align: center;
-
     }
 
     #about p {
         float: none;
         text-align: center;
+    }
+
+    #about h2 {
+        margin-bottom: 20px;
     }
 }
 
